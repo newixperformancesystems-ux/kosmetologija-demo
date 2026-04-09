@@ -249,7 +249,7 @@ export default function Home() {
         <section id="about" className="py-20 bg-secondary">
           <div className="container">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-              <div>
+              <div className="pl-8 md:pl-16">
                 <h2 className="text-4xl md:text-5xl font-serif font-bold mb-6 text-foreground">Apie mane</h2>
                 <p className="text-lg text-foreground/80 mb-4 leading-relaxed">
                   Aš esu profesionali kosmetologijos meistrė su daugiau nei 10 metų patirtimi. Mano tikslas – padėti jums pasijusti gražiai ir pasitikinti savimi.
@@ -294,7 +294,6 @@ export default function Home() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   </div>
                   <div className="p-6">
-                    <div className="text-4xl mb-3">{service.icon}</div>
                     <h3 className="text-2xl font-serif font-bold mb-3 text-foreground group-hover:text-primary transition-colors">{service.title}</h3>
                     <p className="text-foreground/70 leading-relaxed">{service.description}</p>
                   </div>
