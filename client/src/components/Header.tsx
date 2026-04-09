@@ -7,8 +7,8 @@ export default function Header() {
   const navItems = [
     { label: 'Pagrindinis', href: '#home' },
     { label: 'Paslaugos', href: '#services' },
-    { label: 'Galerija', href: '#gallery' },
     { label: 'Apie mane', href: '#about' },
+    { label: 'Galerija', href: '#gallery' },
     { label: 'Kontaktai', href: '#contact' },
   ];
 
@@ -38,7 +38,7 @@ export default function Header() {
 
         {/* CTA Button */}
         <a
-          href="#booking"
+          href="#pricelist"
           className="hidden md:inline-block px-6 py-2 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors font-medium text-sm"
         >
           Rezervuoti
@@ -68,7 +68,7 @@ export default function Header() {
               </a>
             ))}
             <a
-              href="#booking"
+              href="#pricelist"
               className="px-6 py-2 bg-primary text-white rounded-full hover:bg-primary/90 transition-colors font-medium text-center"
               onClick={() => setIsOpen(false)}
             >

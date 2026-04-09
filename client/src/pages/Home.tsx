@@ -7,8 +7,8 @@ import Footer from '@/components/Footer';
 const CAL_USERNAME = 'kosmostudio';
 const CAL_EVENT_TYPES = {
   konsultacija: 'konsultacija',       // 30min
-  valymas: 'veido-valymas',           // 60min → rodome kaip 1val 30min
-  extra: 'veido-valymas-extra',       // 90min → rodome kaip 2val
+  valymas: 'veido-valymas',           // 60min → rodome kaip 1val
+  extra: 'veido-valymas-extra',       // 90min → rodome kaip 1val 30min
 };
 
 const heroImage = 'https://d2xsxph8kpxj0f.cloudfront.net/310519663521790732/H6h3DFAC5oGrg4e2N8kyZS/hero-facial-spa-CUKgT4HdYhjNQZ9zrH83K2.webp';
@@ -36,7 +36,7 @@ const pricelist = [
   {
     id: 2,
     title: 'Mechaninis veido valymas',
-    duration: '1 val 30 min',
+    duration: '1 val',
     price: 70,
     description: 'Profesionali mechaninio valymo procedūra',
     eventType: CAL_EVENT_TYPES.extra,
@@ -52,7 +52,7 @@ const pricelist = [
   {
     id: 4,
     title: 'Mechaninis + rūgštimis veido valymas',
-    duration: '1 val 30 min',
+    duration: '1 val',
     price: 70,
     description: 'Kombinuota procedūra maksimaliam rezultatui',
     eventType: CAL_EVENT_TYPES.extra,
@@ -60,7 +60,7 @@ const pricelist = [
   {
     id: 5,
     title: 'Mechaninis + ultragarsinis veido valymas',
-    duration: '1 val 30 min',
+    duration: '1 val',
     price: 70,
     description: 'Dviguba valymo technologija',
     eventType: CAL_EVENT_TYPES.extra,
@@ -68,7 +68,7 @@ const pricelist = [
   {
     id: 6,
     title: 'Mechaninis + ultragarsinis + rūgštimis veido valymas',
-    duration: '1 val 30 min',
+    duration: '1 val',
     price: 70,
     description: 'Kompleksinė veido valymo procedūra',
     eventType: CAL_EVENT_TYPES.extra,
@@ -76,7 +76,7 @@ const pricelist = [
   {
     id: 7,
     title: 'Veido odos procedūra pagal jos poreikius',
-    duration: '1 val 30 min',
+    duration: '1 val',
     price: 70,
     description: 'Individualizuota procedūra jūsų odos tipui',
     eventType: CAL_EVENT_TYPES.extra,
@@ -92,7 +92,7 @@ const pricelist = [
   {
     id: 9,
     title: 'Konsultacija + veido valymas',
-    duration: '1 val 30 min',
+    duration: '1 val',
     price: 80,
     description: 'Kompleksinė procedūra su konsultacija',
     eventType: CAL_EVENT_TYPES.extra,
