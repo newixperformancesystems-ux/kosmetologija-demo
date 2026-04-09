@@ -231,7 +231,7 @@ export default function Home() {
           <div className="absolute inset-0 bg-black/30" />
           <div className="container relative z-10 text-center text-white">
             <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 leading-tight">
-              Jūsų oda nusipelnija prabangos
+              Jūsų oda nusipelnė prabangos
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-white/90 max-w-2xl mx-auto">
               Premium kosmetologijos procedūros, skirtos jūsų odos grožiui ir sveikatai
