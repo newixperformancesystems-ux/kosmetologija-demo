@@ -4,7 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 // Cal.com konfigūracija
-const CAL_USERNAME = 'KosmoStudio';
+const CAL_USERNAME = 'kosmostudio';
 const CAL_EVENT_TYPES = {
   konsultacija: 'konsultacija',       // 30min
   valymas: 'veido-valymas',           // 60min → rodome kaip 1val 30min
@@ -36,7 +36,7 @@ const pricelist = [
   {
     id: 2,
     title: 'Mechaninis veido valymas',
-    duration: '2 val',
+    duration: '1 val 30 min',
     price: 70,
     description: 'Profesionali mechaninio valymo procedūra',
     eventType: CAL_EVENT_TYPES.extra,
@@ -44,7 +44,7 @@ const pricelist = [
   {
     id: 3,
     title: 'Ultragarsinis veido valymas',
-    duration: '1 val 30 min',
+    duration: '1 val',
     price: 70,
     description: 'Šiuolaikiška ultragarsinio valymo technologija',
     eventType: CAL_EVENT_TYPES.valymas,
@@ -52,7 +52,7 @@ const pricelist = [
   {
     id: 4,
     title: 'Mechaninis + rūgštimis veido valymas',
-    duration: '2 val',
+    duration: '1 val 30 min',
     price: 70,
     description: 'Kombinuota procedūra maksimaliam rezultatui',
     eventType: CAL_EVENT_TYPES.extra,
@@ -60,7 +60,7 @@ const pricelist = [
   {
     id: 5,
     title: 'Mechaninis + ultragarsinis veido valymas',
-    duration: '2 val',
+    duration: '1 val 30 min',
     price: 70,
     description: 'Dviguba valymo technologija',
     eventType: CAL_EVENT_TYPES.extra,
@@ -68,7 +68,7 @@ const pricelist = [
   {
     id: 6,
     title: 'Mechaninis + ultragarsinis + rūgštimis veido valymas',
-    duration: '2 val',
+    duration: '1 val 30 min',
     price: 70,
     description: 'Kompleksinė veido valymo procedūra',
     eventType: CAL_EVENT_TYPES.extra,
@@ -76,7 +76,7 @@ const pricelist = [
   {
     id: 7,
     title: 'Veido odos procedūra pagal jos poreikius',
-    duration: '2 val',
+    duration: '1 val 30 min',
     price: 70,
     description: 'Individualizuota procedūra jūsų odos tipui',
     eventType: CAL_EVENT_TYPES.extra,
@@ -84,7 +84,7 @@ const pricelist = [
   {
     id: 8,
     title: 'Veido odos drėkinimas / maitinimas',
-    duration: '1 val 30 min',
+    duration: '1 val',
     price: 70,
     description: 'Intensyvi hidratacija ir maitinimas',
     eventType: CAL_EVENT_TYPES.valymas,
@@ -92,7 +92,7 @@ const pricelist = [
   {
     id: 9,
     title: 'Konsultacija + veido valymas',
-    duration: '2 val',
+    duration: '1 val 30 min',
     price: 80,
     description: 'Kompleksinė procedūra su konsultacija',
     eventType: CAL_EVENT_TYPES.extra,
