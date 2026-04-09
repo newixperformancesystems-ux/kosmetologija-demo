@@ -266,7 +266,15 @@ export default function Home() {
                   ))}
                 </div>
               </div>
-              <img src={procedureImage} alt="Apie mane" className="rounded-2xl shadow-xl w-full h-96 object-cover" />
+              <div className="flex flex-col items-center">
+                <div className="relative rounded-2xl shadow-xl overflow-hidden w-72 md:w-80">
+                  <img src="/laura.jpg" alt="Laura" className="w-full object-cover" style={{aspectRatio: '2/3'}} />
+                </div>
+                <div className="mt-4 text-center">
+                  <p className="text-xl font-serif font-bold text-foreground">Laura</p>
+                  <p className="text-sm text-primary font-medium tracking-wide uppercase mt-1">Kosmetologė</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
