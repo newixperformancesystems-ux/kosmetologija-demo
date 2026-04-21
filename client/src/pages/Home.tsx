@@ -453,25 +453,22 @@ export default function Home() {
                 Prieš ir po – tikri mūsų procedūrų rezultatai
               </p>
             </div>
-            <div className="columns-1 md:columns-2 gap-8 space-y-8">
-              {[
-                galleryBeforeAfter1,
-                galleryBeforeAfter2,
-                beforeAfterImage,
-                productsImage,
-              ].map((img, i) => (
-                <div
-                  key={i}
-                  className="group relative rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow break-inside-avoid"
-                >
-                  <img
-                    src={img}
-                    alt={`Galerija ${i + 1}`}
-                    className="w-full h-auto block group-hover:scale-105 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
-                </div>
-              ))}
+            <div className="columns-1 md:columns-3 gap-8 space-y-8">
+              {[galleryBeforeAfter2, beforeAfterImage, productsImage].map(
+                (img, i) => (
+                  <div
+                    key={i}
+                    className="group relative rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow break-inside-avoid"
+                  >
+                    <img
+                      src={img}
+                      alt={`Galerija ${i + 1}`}
+                      className="w-full h-auto block group-hover:scale-105 transition-transform duration-500"
+                    />
+                    <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
+                  </div>
+                )
+              )}
             </div>
           </div>
         </section>
