@@ -15,8 +15,7 @@ const heroImage =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663521790732/H6h3DFAC5oGrg4e2N8kyZS/hero-facial-spa-CUKgT4HdYhjNQZ9zrH83K2.webp";
 const procedureImage =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663521790732/H6h3DFAC5oGrg4e2N8kyZS/facial-procedure-close-up-jWyZy3TPM9VtLYcpaAHfgX.webp";
-const productsImage =
-  "https://images.pexels.com/photos/3762871/pexels-photo-3762871.jpeg?auto=compress&cs=tinysrgb&w=1600";
+const productsImage = "/before-after-skincare.jpg";
 const beforeAfterImage =
   "https://d2xsxph8kpxj0f.cloudfront.net/310519663521790732/H6h3DFAC5oGrg4e2N8kyZS/before-after-facial-d8TSKV7a9MPTKqEGgCESrb.webp";
 const galleryBeforeAfter1 =
