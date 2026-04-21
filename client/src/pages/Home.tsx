@@ -270,7 +270,7 @@ export default function Home() {
         {/* Hero */}
         <section
           id="home"
-          className="relative h-screen flex items-center justify-center overflow-hidden"
+          className="relative h-[70vh] min-h-[520px] flex items-center justify-center overflow-hidden"
           style={{
             backgroundImage: `url(${heroImage})`,
             backgroundSize: "cover",
@@ -398,7 +398,7 @@ export default function Home() {
           <div className="container">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-serif font-bold mb-4 text-foreground">
-                Kainoraštas
+                Kainoraštis
               </h2>
               <p className="text-xl text-foreground/70 max-w-2xl mx-auto">
                 Pasirinkite procedūrą ir rezervuokite laiką internetu
